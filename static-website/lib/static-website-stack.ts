@@ -14,7 +14,7 @@ export class StaticWebsiteStack extends cdk.Stack {
       bucketName: "cdk-simply-serverless-ts",
       publicReadAccess: true,
       websiteIndexDocument: "index.html",
-      websiteErrorDocument: "index.html",
+      websiteErrorDocument: "error.html",
     })
 
 
